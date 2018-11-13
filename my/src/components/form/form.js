@@ -4,6 +4,7 @@ import Button from './button'
 import Input from './input';
 import Label from './label';
 import Link from './link';
+import Container from '../container'
 
 function Form(props){
   return(
@@ -21,4 +22,5 @@ Form.Input = Input
 Form.Button = Button
 Form.Label = Label
 Form.Link = Link
+Form.Container = Container
 export default Form
